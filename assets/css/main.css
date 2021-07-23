@@ -394,6 +394,10 @@ body {
   text-decoration: none;
 }
 
+.nosotros {
+  display: none;
+}
+
 @media (min-width: 576px) {
   .nosotros {
     display: none;
@@ -404,6 +408,10 @@ body {
     display: inline-block;
   }
 }
+.aside {
+  display: none;
+}
+
 @media (min-width: 576px) {
   .aside {
     display: none;

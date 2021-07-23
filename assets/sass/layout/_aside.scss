@@ -1,3 +1,6 @@
+.aside{
+    display: none;
+}
 @include respond-to($bp-sm){
     .aside{
         display: none;
