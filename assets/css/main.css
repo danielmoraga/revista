@@ -430,6 +430,11 @@ body {
   width: 100%;
 }
 
+.content {
+  height: 300px;
+  overflow: hidden;
+}
+
 @media (min-width: 576px) {
   .content {
     height: 300px;
