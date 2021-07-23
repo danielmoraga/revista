@@ -1,0 +1,23 @@
+.article{
+align-items: center;
+margin-bottom: 3rem;
+
+&__image{
+    width: 100%;
+}
+}
+
+@include respond-to($bp-sm){
+    .content{
+        height: 300px;
+        overflow: hidden;
+    
+    } 
+}
+@include respond-to($bp-lg){
+    .content{
+        height: 100%;
+        overflow: hidden;
+    
+    } 
+}

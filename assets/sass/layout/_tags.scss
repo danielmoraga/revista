@@ -1,0 +1,13 @@
+.tags__list{
+margin: 0;
+padding: 0;
+}
+
+.tags__item{
+    display: inline-block;
+    background-color: $steelblue;
+    color: $white;
+    padding: 5px;
+    font-size: $primary-medium;
+    
+}
